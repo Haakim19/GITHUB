@@ -4,7 +4,7 @@
 using namespace std;
  int main()
  {
-   /* string cars[] = {"volvo","BMW","Ford","Mazda","Tesla"};
+    string cars[] = {"volvo","BMW","Ford","Mazda","Tesla"};
     int number[] = {10,20,30,40} ;
 //array in loop 
    for (int i = 0 ; i < sizeof (number) / sizeof (int) ; i++)
@@ -14,7 +14,7 @@ using namespace std;
    for (int i : number)
    {
     cout << i << endl ;
-   } */
+   } 
 // 
 
 int arr[] = {1,2,3,4,5};
