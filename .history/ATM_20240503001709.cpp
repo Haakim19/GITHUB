@@ -31,7 +31,7 @@ int main ()
         cout << "Deposit Amount:" ;
         cin >> depositAmount ;
         ballance += depositAmount;
-        cout << "*Ballance Amount:"<<ballance<<"*"<< endl;
+        cout << "Ballance Amount"<<ballance<< endl;
         break;
      
      case 3://withdrawAmount
@@ -41,7 +41,7 @@ int main ()
         if (withdrawAmount<=ballance)
             {
                 ballance -= withdrawAmount;
-                cout << "*Ballance Amount:"<<ballance<<"*"<< endl;
+                cout << "Ballance Amount"<<ballance<< endl;
             }
         else
         {
@@ -64,7 +64,7 @@ int main ()
                 {
                     cout << transferAmount << " is successfully transferred to " << transferAccountNumber << endl;
                     ballance-= transferAmount;
-                    cout << "*Ballance Amount:"<<ballance<<"*"<< endl;
+                    cout << "Ballance Amount"<<ballance<< endl;
                 }
 
             }
