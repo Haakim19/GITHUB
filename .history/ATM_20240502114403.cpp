@@ -61,7 +61,6 @@ int main ()
                 if (ballance >= transferAmount)
                 {
                     cout << transferAmount << " is successfully transferred to " << transferAccountNumber << endl;
-                    ballance-= transferAmount;
                 }
 
             }
